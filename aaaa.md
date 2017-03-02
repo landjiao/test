@@ -1,5 +1,6 @@
+<head>
 <title>万维网教育社区小组</title>
-
+</head>
 ## 主页（Main Page）
 
 Welcome to the Web Education Community Group Wiki! This page contains resources to help you teach or learn modern web development:
