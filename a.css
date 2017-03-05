@@ -1,28 +1,66 @@
+/*********************************
+
+body
+
+*********************************/
+
 html,body{
 	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif,"宋体";
 	min-height:100%;
 	margin:0;
 	padding:0;
 	line-height:1.5;
-	font-size:15px;
 }
 body{
 	width:100%;
+	font-size:15px;
 	background:#fefefe;
 }
-body>div{
-	max-width:850px;
-	margin:10px auto;
-	overflow:hidden;
-	padding:5px;
-}
-div,p{
-	margin:5px 10px;
+
+/*********************************
+
+head
+
+*********************************/
+
+header:before{
+	content:"Land Jiao W3C";
+	font-size:1rem;
+	display:block;
+	height:2em;
+	line-height:2em;
+	text-align:center;
+	background:#3FBDB1;
 }
 h1{
-	margin:7px 10px;
-	padding:5px 0;
+	margin:0 10px 7px;
+	padding:0 0 5px;
 	border-bottom:4px solid #555;
+}
+
+/*********************************
+
+nav
+
+*********************************/
+
+
+
+/*********************************
+
+article
+
+*********************************/
+
+article{
+	max-width:850px;
+	margin:0 auto 10px;
+	overflow:hidden;
+	padding:0 5px 20px;
+}
+div,p{
+	margin:1em 10px;
+	text-align:justify;
 }
 .contents{
 	overflow:hidden;
@@ -38,9 +76,6 @@ h5{
 h2,h3{
 	position: relative;
 	margin:20px 0 15px 10px;
-}
-p{
-	text-indent:2em;
 }
 a{
 	text-decoration:none;
@@ -59,8 +94,8 @@ ul li{
 	display:block;
 	position:relative;
 }
-ul li:nth-child(4n-3):before{
-	content:"\25b6";
+ul li:before{
+	content:"\27a2";
 	position:absolute;
 	left:-1em;
 	top:0;
@@ -71,6 +106,15 @@ ol ol{
 li p{
 	text-indent:0;
 }
+
+/*********************************
+
+body
+
+*********************************/
+
+footer
+
 @media screen and (max-width:850px){
 	body>div{
 		margin:10px;
@@ -89,6 +133,5 @@ li p{
 	p,li{
 		font-size:15px;
 		margin:10px 0;
-		text-align:justify;
 	}
 }
