@@ -1,5 +1,5 @@
 # 主页（Main Page）
-Welcome to the Web Education Community Group Wiki! This page contains resources to help you teach or learn modern web development:
+Welcome to the Web Educatio n Community Group Wiki! This page contains resources to help you teach or learn modern web development:
 欢迎访问万维网教育社区小组百科！本页面涵盖了可以帮助你教授或者学习网站开发的一些资源，包括：
 
 The first section — The web standards curriculum — is a series of tutorial articles covering web design and development high level concepts, and essential technologies such as HTML, CSS and JavaScript. This is ideal for beginners wanting to learn the art of web design, or teachers looking for accurate material to use as the basis of teaching material.
